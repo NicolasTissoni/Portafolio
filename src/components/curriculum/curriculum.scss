@@ -1,0 +1,16 @@
+.pagina {
+    ul {
+        display: flex;
+        gap: 10px;
+        
+        li {
+            list-style: none;
+        }
+    }
+    h2 {
+        margin-top: 10px;
+    }
+    .contenedor-cv {
+        margin-top: 50px;
+    }
+}

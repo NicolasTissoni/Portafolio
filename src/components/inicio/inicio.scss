@@ -1,0 +1,43 @@
+.inicio {
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 60px;
+        margin-top: 80px;
+        
+        strong {
+            color: violet;
+        }
+    }
+
+    h2 {
+        color: rgb(106, 105, 105);
+        font-weight: lighter;
+        margin: 10px 0;
+    }
+
+    a {
+        background-color: violet;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 7px;
+        transition: all 300ms;
+        &:hover {
+            background-color: rgb(156, 86, 156);
+        }
+    }
+
+    p {
+        color: rgb(106, 105, 105);
+    }
+
+    .ultimos-proyectos {
+
+        .encabezado {
+            font-size: 40px;
+            font-weight: 500;
+            color: black;
+        }
+    }
+};
